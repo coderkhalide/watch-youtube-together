@@ -1,0 +1,7 @@
+@tailwind components;
+
+@layer components {
+    .button {
+        @apply cursor-pointer hover:bg-gray-50 transition duration-300 px-4 py-3 rounded-lg bg-blue-500 text-white hover:text-blue-600 font-semibold hover:shadow-lg active:scale-90 my-4;
+    }
+}
